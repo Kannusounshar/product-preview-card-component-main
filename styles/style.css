@@ -71,8 +71,7 @@ body{
   background-color: var(--clr-Cream);
   min-height: 100vh;
   width: 100vw;
-  padding: 2rem 0;
-  display: flex;
+    display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -80,7 +79,6 @@ body{
   background-color: var(--clr-White);
   width: 26rem;
   height: auto;
-  padding-bottom: 2rem;
   border-radius: var(--radius);
   display: flex;
   flex-direction: column;
@@ -180,20 +178,26 @@ border-radius: var(--radius);
 
 @media (min-width: 991px) {
   .card-img-container{
+    width: 50%;
+    height: 34rem;
+    background-position: cover;
     background-image: url(/images/image-product-desktop.jpg);
     -o-object-fit: contain;
   object-fit: contain;
   border-bottom-left-radius:var(--radius) ;
   border-top-left-radius: var(--radius);
+  border-top-right-radius: 0;
   }
   .card{
     flex-direction: row;
     width: 50rem;
+    height:auto;
     
   }
-  .card-img-container{
-    width: 100%;
+  .details{
+    width: 50%;
   }
+
   .details-container{
   align-items: flex-start;
   width: 1rem;
