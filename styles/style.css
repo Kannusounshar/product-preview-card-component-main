@@ -202,6 +202,9 @@ border-radius: var(--radius);
   align-items: flex-start;
   width: 1rem;
 }
+.card-description{
+  font-size: 1.2rem;
+}
 
 
 }
